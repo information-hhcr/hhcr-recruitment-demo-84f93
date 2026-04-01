@@ -662,9 +662,9 @@
     const vol = rawVolume ? formatVolume(rawVolume) : null;
     let statsLine = '';
     if (sides && vol) {
-      statsLine = `<span class="stat">${sides} sides</span> and <span class="stat">${vol} in volume</span>`;
+      statsLine = `<span class="stat">${sides} sales</span> and <span class="stat">${vol} in volume</span>`;
     } else if (sides) {
-      statsLine = `<span class="stat">${sides} transaction sides</span>`;
+      statsLine = `<span class="stat">${sides} sales</span>`;
     } else if (vol) {
       statsLine = `<span class="stat">${vol} in volume</span>`;
     }
